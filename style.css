@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Sawarabi+Mincho&family=Zen+Antique&display=swap');
+
+
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #007F5F;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+    font-size: 30px;
+  font-family: 'Kaisei Decol', serif;
+}
+
+.section-wrapper {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-line {
+  width: 5px;
+  height: 20px;
+  background-color: #00bcd4;
+  margin-right: 10px;
+}
+
+.section-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.news-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.news-date {
+  font-size: 16px;
+  color: #00bcd4;
+  margin-bottom: 5px;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.news-content {
+  font-size: 14px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+}
+
+.photo-frame {
+  padding: 20px;
+  border: 2px solid #223377;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+.photo-frame img {
+  max-width: 40px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+.photo-details h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.photo-details p {
+  font-size: 14px;
+  
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 39.375%; /* 16:9 のアスペクト比を維持 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Sawarabi Mincho', serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Zen Antique', serif;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Zen Antique', serif;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: 'Zen Antique', serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Zen Antique', serif;
+}
