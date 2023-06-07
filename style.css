@@ -144,6 +144,10 @@ footer {
 
 }
 
+.map-contents {
+  text-align: center;
+}
+
 h1 {
   font-size: 40px;
   font-family: 'Sawarabi Mincho', serif;
@@ -168,3 +172,4 @@ p {
   font-size: 20px;
   font-family: 'Zen Antique', serif;
 }
+
