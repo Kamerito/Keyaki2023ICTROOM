@@ -61,6 +61,17 @@ footer {
 }
 
 
+.congestion-status {
+  text-align: center;
+}
+
+.congestion-status img{
+  text-align: center;
+  width: 250px;
+  height: 250px;
+}
+
+
 .news-list {
   list-style-type: none;
   padding: 0;
