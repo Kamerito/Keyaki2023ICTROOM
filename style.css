@@ -10,13 +10,13 @@ body {
 header {
   text-align: center;
   padding: 20px;
+  background-image: url("Lina.JPG");
 }
 
 header img {
   display: block;
   margin: 0 auto;
-  width: 250px;
-  height: 250px;
+  width: 20vw;
 }
 
 main {
@@ -28,17 +28,17 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 10px;
-    font-size: 30px;
+  font-size: 30px;
   font-family: 'Kaisei Decol', serif;
 }
 
 .section-wrapper {
   background-color: #ffffff;
-  border-radius: 20px;
-  padding: 30px;
-  margin-bottom: 40px;
-  margin-left: 200px;
-  margin-right: 200px;
+  border-radius: 2vw;
+  padding: 3vw;
+  margin-bottom: 4vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,7 +49,7 @@ footer {
 }
 
 .title-line {
-  width: 5px;
+  width: 0.5vw;
   height: 20px;
   background-color: #00bcd4;
   margin-right: 10px;
@@ -60,15 +60,14 @@ footer {
   font-weight: bold;
 }
 
-
 .congestion-status {
   text-align: center;
 }
 
-.congestion-status img{
+.congestion-status img {
   text-align: center;
-  width: 250px;
-  height: 250px;
+  width: 30%;
+  height: 60%;
 }
 
 
@@ -102,24 +101,22 @@ footer {
 }
 
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
-  grid-gap: 20px;
+  text-align: center;
 }
 
 .photo-frame {
-  padding: 20px;
-  border: 2px solid #223377;
-  border-radius: 10px;
-  background-color: #ffffff;
+  display: inline-block;
+  width: 60vw;
+  padding: 1em;
+  border: solid 2px #223377;
+  border-radius: 0.4em;
   text-align: center;
 }
 
 
 .photo-frame img {
-  max-width: 40px;
-  max-height: 120px;
+  max-width: 10vw;
+  max-height: 10vh;
   width: auto;
   height: auto;
   border-radius: 8px;
@@ -127,22 +124,12 @@ footer {
 }
 
 
-.photo-details h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.photo-details p {
-  font-size: 14px;
-  
-}
-
 .video-container {
   position: relative;
-  padding-bottom: 39.375%; /* 16:9 のアスペクト比を維持 */
+  padding-bottom: 39.375%;
   height: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 .video-container video {
@@ -152,35 +139,45 @@ footer {
   width: 70%;
   height: 100%;
   border-radius: 10px;
-
+  text-align: center;
 }
 
 .map-contents {
   text-align: center;
 }
 
+
 h1 {
-  font-size: 40px;
+  font-size: 2rem;
   font-family: 'Sawarabi Mincho', serif;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-family: 'Zen Antique', serif;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.25rem;
   font-family: 'Zen Antique', serif;
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 0.75rem;
   font-family: 'Zen Antique', serif;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1rem;
   font-family: 'Zen Antique', serif;
 }
 
+.title {
+  transition: 1s;
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+.title:hover {
+  letter-spacing: .5em;
+}
